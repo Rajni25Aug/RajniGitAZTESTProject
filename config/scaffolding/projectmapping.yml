@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: RajniGitAZTESTProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: RefTESTDRTWorkflow
+    type: workflow
+    uid: fl53e83dbdca4343fbb543bfd6f320b0bd
+    stepId: a0
+    reference: project.rajnigitaztest.integrations:refenceDataTest
