@@ -1,6 +1,13 @@
 version: "1.0"
 projectName: RajniGitAZTESTProject
 runtimes:
+- runtimeAlias: RajniMultiInt
+  assets:
+  - name: RefTESTWithERTWorkflow
+    type: workflow
+    uid: fld87caabbaee548e49cd82f3fc17270c2
+    stepId: a0
+    reference: project.rajnigitaztest.integrations:refenceDataTest
 - runtimeAlias: Cloud Designtime
   assets:
   - name: RefTESTDRTWorkflow
