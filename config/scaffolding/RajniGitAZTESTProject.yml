@@ -8,15 +8,11 @@ packages:
   gitUsername: Rajni25Aug
   gitBranch: main
 services:
-- serviceName: project.rajnigitaztest.integrations:Copy_refenceDataTest
+- serviceName: project.rajnigitaztest.integrations:refenceDataTest
   packages:
   - name: RajniGitAZTESTProject
     version: "1.0"
 - serviceName: project.rajnigitaztest.referencedata:refdata
-  packages:
-  - name: RajniGitAZTESTProject
-    version: "1.0"
-- serviceName: project.rajnigitaztest.integrations:refenceDataTest
   packages:
   - name: RajniGitAZTESTProject
     version: "1.0"
